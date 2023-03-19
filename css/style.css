@@ -301,12 +301,9 @@ body {
   background-image: url(../images/twitter-icon.png);
 }
 
-
 .mastodon .title:before {
   background-image: url(../images/mastodon-icon.png);
 }
-
-
 
 /*-- Notice --*/
 
@@ -524,8 +521,11 @@ body {
     background-image: url(../images/twitter-icon-2x.png);
   }
 
+  .mastodon { 
+    padding-top: 20px; 
+  }
   .mastodon .title:before {
-    background-image: url(../images/mastopdon-icon-2x.png);
+    background-image: url(../images/mastodon-icon-2x.png);
   }
 
 }
