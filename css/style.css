@@ -130,6 +130,8 @@ a {
           transition: color 0.2s ease-in-out;
 }
 
+.meta a { color: #ff006c}
+
 a:hover, a:focus {
   color: #479c18;
 }

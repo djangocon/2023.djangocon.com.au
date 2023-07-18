@@ -25,11 +25,11 @@
     <![endif]-->
 
   <style>
-    .cfp-button { 
+    .cfp-button {
       font-size: 150%
     }
   </style>
-  
+
   <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
 
   <script type="text/javascript"> <!-- Analytics Code -->
@@ -96,205 +96,331 @@
           <span class="title">Mastodon</span>
           <a rel="me" href="https://fosstodon.org/@djangoconau" target="_blank">fosstodon.org/@djangoconau</a>
         </li>
-
-
-
       </ul>
-
     </div>
   </div>
 
+  <div class="tickets">
+    <div class="wrap">
+      <p style="text-align: center; margin: 10px 0 20px 0;">Tickets available now from the PyCon AU website</p>
+      <a href="https://2023.pycon.org.au/attend/" target="_blank" class="button">Buy Tickets</a>
+    </div>
+  </div>
   <div class="speakers" id="speakers">
     <div class="wrap">
 
-      <!-- <h2 class="section-title">Call for Proposals Open</h2>
-      <p align="center" class="cfp-button">➡  <a href="https://2023.pycon.org.au/program/">Submit to the DjangoCon AU 2023 CFP!</a>  ⬅ </p>
-      <p align="center">The DjangoCon AU CFP is now open! We will be accept talks through the main PyCon AU Call for Proposals.
-        <br><BR>When submitting, make sure you select "DjangoCon AU" as your track!
-      </p>
-      <p align="center">
-        Read the details and submit a talk at <a href="https://2023.pycon.org.au/program">2023.pycon.org.au/program</a></p>
-      </p>
-    -->
-
-      <p align="center">Selected talks revealed soon!</p>
-    </div>
-  </div>
-
-
-  <!---  Speakers -->
-  <!-- 
+      <!---  Speakers -->
       <div class="speakers" id="speakers">
+        <div class="wrap">
+
+          <h2 class="section-title">Speakers</h2>
+
+          <ul class="speaker-list group">
+            <li class="speaker">
+              <div class="img-container">
+                <img src="./images/speakers/jrosenbaum.jpg" alt="" />
+              </div>
+              <div class="details">
+                <span class="name">
+                  Dr J. Rosenbaum
+                </span>
+                <span class="meta">
+                  <a href="https://2023.pycon.org.au/program/ZDDVWK/">Roll for Initiative: how to make the world of AI a
+                    more ethical place</a>
+                </span>
+              </div>
+              <p class="description">
+                Your team has gathered to fight bias, your tool, AI. How do you muster your forces and all of the
+                abilities at your disposal to fight and slay your fearsome foe?
+                how do you create a balanced party and slay the Beasts of Bias; racism, sexism and queerphobia? Can it
+                be done? Venture together with me into the seedier side of AI as we band together to fight algorithmic
+                injustice and create a better world.
+              </p>
+            </li>
+
+            <li class="speaker">
+              <div class="img-container">
+                <img src="./images/speakers/alanrubin.jpg" alt="Place Holder" />
+              </div>
+              <div class="details">
+                <span class="name">
+                  Alan Rubin
+                </span>
+                <span class="meta">
+                  <a href="https://2023.pycon.org.au/program/TX9KTX/">Building a biological database with Python</a>
+                </span>
+              </div>
+              <p class="description">
+                This talk is a story of how open-source frameworks make it possible for academics to take on otherwise
+                infeasibly complex projects, which in my case was a new community-driven database for biologists and
+                clinical geneticists.
+              </p>
+            </li>
+
+
+            <li class="speaker">
+              <div class="img-container">
+                <img src="./images/speakers/curtismaloney.jpg" alt="Place Holder" />
+              </div>
+              <div class="details">
+                <span class="name">
+                  Curtis Maloney
+                </span>
+                <span class="meta">
+                  <a href="https://2023.pycon.org.au/program/KTNAWJ/">HttpRequest: An unsung hero of Django</a>
+                </span>
+              </div>
+              <p class="description">
+                We use it in every view, every request, but how much is HttpRequest doing for you that you never thought
+                about?
+
+
+              </p>
+            </li>
+
+
+            <li class="speaker">
+              <div class="img-container">
+                <img src="./images/speakers/noahkantrowitz.jpg" alt="Place Holder" />
+              </div>
+              <div class="details">
+                <span class="name">
+                  Noah Kantrowitz
+                </span>
+                <span class="meta">
+                  <a href="https://2023.pycon.org.au/program/BKHZML/">Swiss Army Django: Small Footprint ETL</a>
+                </span>
+              </div>
+              <p class="description">
+                A case study of a single-application ETL system to scrape and enrich complex nested data and then expose
+                it via GraphQL and Discord. It will dive into how to use these various async-based libraries together in
+                a small footprint app.
+              </p>
+            </li>
+
+            <li class="speaker">
+              <div class="img-container">
+                <img src="./images/speakers/evanbrumley.jpg" alt="Place Holder" />
+              </div>
+              <div class="details">
+                <span class="name">
+                  Evan Brumley
+                </span>
+                <span class="meta">
+                  <a href="https://2023.pycon.org.au/program/8HUA8Y/">Choosing Wisely - How to Pick the Right Third
+                    Party Packages for your Project</a>
+                </span>
+              </div>
+              <p class="description">
+                Python has an incredible library of open source packages you can use in your own project, but how do you
+                pick the right one? What can happen if you pick the wrong one? In this talk, we'll discuss the process
+                of choosing the right dependencies - from architecture to security to licensing. By the end you'll have
+                a good understanding of what to look for in a package and what to avoid.
+
+
+              </p>
+            </li>
+
+
+            <li class="speaker">
+              <div class="img-container">
+                <img src="./images/speakers/place-holder.jpg" alt="Place Holder" />
+              </div>
+              <div class="details">
+                <span class="name">
+                  Levi Cameron
+                </span>
+                <span class="meta">
+                  <a href="https://2023.pycon.org.au/program/8EHZDF/">Multi-tenancy strategies with Django+PostgreSQL
+                  </a>
+                </span>
+              </div>
+              <p class="description">
+                Most Django sites contain information that effectively needs to be isolated from other users or groups.
+                How can we use Django+Postgres to defend against developer mistakes to ensure private data doesn't leak
+                to the wrong users?
+              </p>
+            </li>
+
+
+            <li class="speaker">
+              <div class="img-container">
+                <img src="./images/speakers/anthonyshaw.jpg" alt="Place Holder" />
+              </div>
+              <div class="details">
+                <span class="name">
+                  Anthony Shaw
+                </span>
+                <span class="meta">
+                  <a href="https://2023.pycon.org.au/program/WGPY79/">Beat the rush! Designing effective load tests for
+                    your web application
+                  </a>
+                </span>
+              </div>
+              <p class="description">
+                “The website is slow”. These four words can strike fear and dread in the heart of any developer. Load
+                Testing is a tool for preparing your website for high demand, but designing a good load test is a
+                fine-art. In this talk, we’ll explore how design effective load tests for web apps in Python
+              </p>
+            </li>
+
+
+            <li class="speaker">
+              <div class="img-container">
+                <img src="./images/speakers/dansloan.jpg" alt="Place Holder" />
+              </div>
+              <div class="details">
+                <span class="name">
+                  Dan Sloan
+                </span>
+                <span class="meta">
+                  <a href="https://2023.pycon.org.au/program/WMBADG/">Using Django 4.2's StreamingHttpResponse and HTMX
+                    SSE to provide real time notifications</a>
+                </span>
+              </div>
+              <p class="description">
+                Django 4.2 introduces a new way of streaming http responses with an ASGI server. Let's use this with
+                HTMX to build a traditional web application that provides SPA-like real time notifications!
+              </p>
+            </li>
+
+
+            <li class="speaker">
+              <div class="img-container">
+                <img src="./images/speakers/syedali.jpg" alt="Place Holder" />
+              </div>
+              <div class="details">
+                <span class="name">
+                  Syed Muhammad Dawoud Sheraz Ali
+                </span>
+                <span class="meta">
+                  <a href="https://2023.pycon.org.au/program/FS3SQV/">N+1 Problem in Django Rest Framework</a>
+                </span>
+              </div>
+              <p class="description">
+                N+1 problems in Django are not new. Anyone who has worked with Django must have had some interaction
+                with the N+1 problem. Django Rest Framework allows building robust APIs on top of Django. We will
+                explore the N+1 problem in DRF, understand its occurrence in DRF views and serializer fields, and review
+                its performance implications.
+
+
+              </p>
+            </li>
+
+
+            <li class="speaker">
+              <div class="img-container">
+                <img src="./images/speakers/kushalvijay.jpg" alt="Place Holder" />
+              </div>
+              <div class="details">
+                <span class="name">
+                  Kushal Vijay
+                </span>
+                <span class="meta">
+                  <a href="https://2023.pycon.org.au/program/EZAKVR/">Django Apps at Scale: Mistakes to Avoid</a>
+                </span>
+              </div>
+              <p class="description">
+                Every developer makes mistakes while developing new things and experiments. We at StackGuardian (IaC
+                platform) wrote everything from scratch and in the process, we did a lot of research and experiments to
+                build scalable Django Apps with Microservice Architecture. I’ve learned a lot about what works well and
+                what doesn’t with Django, and hope I can share some useful tips on how to work with this popular web
+                framework.
+              </p>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </div>
+
+      <!-- Organisers -->
+      <div class="speakers" id="speakers">
+        <div class="wrap">
+
+          <h2 class="section-title">Organisers</h2>
+
+          <ul class="speaker-list group">
+            <li class="speaker">
+              <div class="img-container">
+                <img src="./images/speakers/eliza-holliday.jpg" alt="Eliza Holliday" />
+              </div>
+              <div class="details">
+                <span class="name">
+                  Liz Holliday
+                </span>
+                <a href="https://twitter.com/commoncode" target="_blank" class="social-handle">commoncode</a>
+                <span class="meta">
+                  DjangoCon AU Co-Organiser<br>
+                  Common Code
+                </span>
+              </div>
+            </li>
+            <li class="speaker">
+              <div class="img-container">
+                <img src="./images/speakers/katie-mclaughlin.jpg" alt="Katie McLaughlin" />
+              </div>
+              <div class="details">
+                <span class="name">
+                  Katie McLaughlin
+                </span>
+                <a href="https://cloudisland.nz/@glasnt" target="_blank"
+                  class="social-handle">cloudisland.nz/@glasnt</a>
+                <span class="meta">
+                  DjangoCon AU Co-Organiser<br>
+                  Google Cloud<br>
+                  Django Software Foundation
+                </span>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="contact">
       <div class="wrap">
 
-        <h2 class="section-title">Speakers</h2>
+        <h2 class="section-title">Contact</h2>
 
-        <ul class="speaker-list group">
-          <li class="speaker">
-            <div class="img-container">
-              <img src="./images/speakers/place-holder.jpg" alt="" />
-            </div>
-            <div class="details">
-              <span class="name">
-                Place Holder
-              </span>
-              <br>
-              <span class="meta">
-                An amazing talk
-              </span>
-            </div>
-            <p class="description">
-              Bill still quickly ability yourself. Car among southern region usually. Under consider play attack. Beat reason turn section hear. Method drug mention me fine hospital. Smile know see.
-            </p>
+        <ul>
+          <li>Eliza Holliday <a href="mailto:eliza.holliday@commoncode.io"
+              target="_blank">eliza.holliday@commoncode.io</a></li>
+          <li>Katie McLaughlin <a href="mailto:katie@dkangocon.com.au" target="_blank">katie@djangocon.com.au</a></li>
+          <li>Twitter: <a href="https://twitter.com/djangoconau" target="_blank">@DjangoConAU</a></li>
+          <li>Mastodon: <a href="https://fosstodon.org/@djangoconau" target="_blank">fosstodon.org/@djangoconau</a>
           </li>
-
-          <li class="speaker">
-            <div class="img-container">
-              <img src="./images/speakers/place-holder.jpg" alt="Place Holder" />
-            </div>
-            <div class="details">
-              <span class="name">
-                Place Holder
-              </span>
-                <a href="https://twitter.com/glasnt" target="_blank" class="social-handle">glasnt</a>
-              <span class="meta">
-                Another Amazing Talk
-              </span>
-            </div>
-            <p class="description">
-            Ahead put action commercial imagine rock. Little author say design. His place particular. Share sing but Mrs. Recognize road point consumer money medical carry reason. Firm entire here animal base.
-
-            </p>
-          </li>
-
         </ul>
 
       </div>
     </div>
--->
 
-  <!-- Organisers -->
-  <div class="speakers" id="speakers">
-    <div class="wrap">
-
-      <h2 class="section-title">Organisers</h2>
-
-      <ul class="speaker-list group">
-        <li class="speaker">
-          <div class="img-container">
-            <img src="./images/speakers/eliza-holliday.jpg" alt="Eliza Holliday" />
-          </div>
-          <div class="details">
-            <span class="name">
-              Liz Holliday
-            </span>
-            <a href="https://twitter.com/commoncode" target="_blank" class="social-handle">commoncode</a>
-            <span class="meta">
-              DjangoCon AU Co-Organiser<br>
-              Common Code
-            </span>
-          </div>
-        </li>
-        <li class="speaker">
-          <div class="img-container">
-            <img src="./images/speakers/katie-mclaughlin.jpg" alt="Katie McLaughlin" />
-          </div>
-          <div class="details">
-            <span class="name">
-              Katie McLaughlin
-            </span>
-            <a href="https://cloudisland.nz/@glasnt" target="_blank" class="social-handle">cloudisland.nz/@glasnt</a>
-            <span class="meta">
-              DjangoCon AU Co-Organiser<br>
-              Google Cloud
-            </span>
-          </div>
-        </li>
-
-      </ul>
-
-    </div>
-  </div>
-
-
-  <!-- Tickets -->
-  <!-- SOON
-    <div class="tickets">
+    <div class="footer group">
       <div class="wrap">
+        <p>
+          <span class="image-credit">Photo by <a href="https://unsplash.com/photos/yh4eadAtOeo" target="_blank">Michael
+              Obeysekera on Unsplash</a></span>.
+          Previous events:
+          <a href="https://2013.djangocon.com.au" target="_blank">2013</a>,
+          <a href="https://2014.djangocon.com.au" target="_blank">2014</a>,
+          <a href="https://2015.djangocon.com.au" target="_blank">2015</a>,
+          <a href="https://2016.djangocon.com.au" target="_blank">2016</a>,
+          <a href="https://2017.djangocon.com.au" target="_blank">2017</a>,
+          <a href="https://2018.djangocon.com.au" target="_blank">2018</a>,
+          <a href="https://2019.djangocon.com.au" target="_blank">2019</a>,
+          <a href="https://2020.djangocon.com.au" target="_blank">2020</a>.
 
-        <h2 class="section-title">Tickets</h2>
-
-        <ul class="ticket-options group">
-          <p align="center">Tickets to PyCon AU include access to all talks, including DjangoCon AU<br><br><BR></p>
-          <li class="option group">
-            <span class="name">PyCon AU Student</span>
-            <p class="description">Admission for students currently enrolled in full or part-time education, at any level. Conditions apply.</p>
-            <span class="price"><span class="currency">AU&#36;</span>10</span>
-          </li>
-
-          <li class="option group">
-            <span class="name">PyCon AU Enthusiast</span>
-            <p class="description">General admission for Python users attending the conference.</p>
-            <span class="price"><span class="currency">AU&#36;</span>29</span>
-          </li>
-
-          <li class="option group">
-            <span class="name">PyCon AU Professional</span>
-            <p class="description">If your employer is paying for your ticket, or you make your living using Python, please consider this tier.</p>
-            <span class="price"><span class="currency">AU&#36;</span>79</span>
-          </li>
-
-          <li class="option group">
-            <span class="name">PyCon AU Contributor</span>
-            <p class="description">All funds raised by contributor tickets are used to support outreach and diversity in future years.</p>
-            <span class="price"><span class="currency">AU&#36;</span>300+</span>
-          </li>
-
-        </ul>
-
-        <p style="text-align: center; margin: 10px 0 20px 0;">Buy tickets from the PyCon AU website</p>
-        <a href="https://pretix.eu/pyconau/online2020/" target="_blank" class="button">Buy Tickets</a>
-
+          <span class="the-cut"> Designed by <a href="https://www.thecut.net.au/" target="_blank">The Cut,
+              Perth.</a></span>
+        </p>
       </div>
     </div>
-  -->
-
-  <div class="contact">
-    <div class="wrap">
-
-      <h2 class="section-title">Contact</h2>
-
-      <ul>
-        <li>Eliza Holliday <a href="mailto:eliza.holliday@commoncode.io"
-            target="_blank">eliza.holliday@commoncode.io</a></li>
-        <li>Katie McLaughlin <a href="mailto:katie@dkangocon.com.au" target="_blank">katie@djangocon.com.au</a></li>
-        <li>Twitter: <a href="https://twitter.com/djangoconau" target="_blank">@DjangoConAU</a></li>
-        <li>Mastodon: <a href="https://fosstodon.org/@djangoconau" target="_blank">fosstodon.org/@djangoconau</a></li>
-      </ul>
-
-    </div>
-  </div>
-
-  <div class="footer group">
-    <div class="wrap">
-      <p>
-        <span class="image-credit">Photo by <a href="https://unsplash.com/photos/yh4eadAtOeo" target="_blank">Michael
-            Obeysekera on Unsplash</a></span>.
-        Previous events:
-        <a href="https://2013.djangocon.com.au" target="_blank">2013</a>,
-        <a href="https://2014.djangocon.com.au" target="_blank">2014</a>,
-        <a href="https://2015.djangocon.com.au" target="_blank">2015</a>,
-        <a href="https://2016.djangocon.com.au" target="_blank">2016</a>,
-        <a href="https://2017.djangocon.com.au" target="_blank">2017</a>,
-        <a href="https://2018.djangocon.com.au" target="_blank">2018</a>,
-        <a href="https://2019.djangocon.com.au" target="_blank">2019</a>,
-        <a href="https://2020.djangocon.com.au" target="_blank">2020</a>.
-
-        <span class="the-cut"> Designed by <a href="https://www.thecut.net.au/" target="_blank">The Cut,
-            Perth.</a></span>
-      </p>
-    </div>
-  </div>
 
 </body>
 
